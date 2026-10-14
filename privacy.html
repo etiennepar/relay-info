@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How the private household assistant Relay handles Google account data.">
+  <title>Privacy and Google data use — Relay</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; }
+    body { max-width: 46rem; margin: 4rem auto; padding: 0 1.5rem; }
+    h1, h2 { line-height: 1.2; }
+    a { text-underline-offset: .2em; }
+    footer { margin-top: 3rem; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="./">Relay</a></p>
+    <h1>Privacy and Google data use</h1>
+    <p>Relay is a privately operated assistant for two household users, not a public service. This page describes its data handling; it does not contain users' personal data.</p>
+    <h2>Information Relay accesses</h2>
+    <p>With a user's Google authorization, Relay can access email messages, metadata, drafts and attachments; accessible Google Drive files and their contents and metadata; and calendars and events. Calendar sharing information may be read to determine which calendars an operation can use. Actual access depends on the granted permissions and the resources accessible to that Google account.</p>
+    <p>Relay also processes the messages, documents, photos, and voice inputs its users provide, along with task history, preferences, and project context used to deliver the assistant's features.</p>
+    <h2>How information is used</h2>
+    <p>Information is used to answer users' questions, search and summarize their material, prepare messages and documents, organize files, assist with scheduling and projects, and run their configured workflows. Relevant content may be included in requests to the configured AI and transcription services. Outputs may be returned through Telegram, saved to Google Drive, or delivered through supported email and calendar operations.</p>
+    <p>Relay does not sell Google user data, use it for advertising, or use it to develop or train generalized AI or machine-learning models. Relay's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+    <h2>Storage and service providers</h2>
+    <p>Google authorization credentials, account caches, conversation and task history, preferences, and artifacts are stored in the household's privately administered Relay installation. Selected files and outputs may also be stored in the users' Google accounts or on their configured computers. Account credentials and private conversation state are kept separately for each user; the household maintainer administers the shared infrastructure.</p>
+    <p>Google, Telegram, the configured AI or transcription providers, and infrastructure providers process information as needed to supply their respective services. Their own terms and privacy policies also apply. This informational website is hosted on GitHub Pages, has no app login or data-upload form, and includes no application analytics scripts. The hosting provider may process ordinary web-request information.</p>
+    <h2>Sharing</h2>
+    <p>Relay supports users' requested sharing and collaborative household workflows. Sharing a resource or delivering an output is distinct from exposing account credentials or making the private assistant publicly available. User content is not published on this website.</p>
+    <h2>Retention, control, and deletion</h2>
+    <p>Relay retains local state and artifacts for ongoing assistance and continuity until the users or household maintainer remove them. Users can request removal of locally stored information through the maintainer. Copies in backups, Google, Telegram, or other connected services may need separate removal under those services' controls and retention practices.</p>
+    <p>Users can revoke Relay's Google access at any time through <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revocation stops future authorized access but does not automatically erase information already stored by Relay or copies already delivered elsewhere.</p>
+    <h2>Contact and updates</h2>
+    <p>For questions or deletion requests, existing users can contact the household maintainer through their established private communication channel. Google authorization screens provide the app's support contact. This page will be updated if Relay's data practices change.</p>
+  </main>
+  <footer>Updated October 14, 2026 · <a href="./">Relay home</a></footer>
+</body>
+</html>
